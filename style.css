@@ -1,0 +1,357 @@
+*{
+  margin: 0;
+  border: border-box;
+  background-color: whitesmoke;
+  
+}
+header{
+  
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navbar{
+  height: 4.5rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6%;
+  margin-right: 6%;
+  
+}
+.name{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center ;
+}
+.name p{
+  background-color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.nav-search form{
+  display: flex;
+  background-color:ghostwhite;
+}
+  .nav-search{
+  width:40%;
+  border-radius: 4px 4px 4px 4px ;
+  display: flex;
+  align-items: center;
+  background-color: ghostwhite;
+  
+}
+.nav-search i{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border: none;
+  width: 10%;
+  margin: 10px;
+}
+form{
+  background-color: ghostwhite;
+}
+.nav-search input{
+  border: none;
+  height: 2rem;
+  background-color:ghostwhite ;
+  width: 70%;
+}
+.btn_one{
+  background-color: white;
+  font-size: 1.4rem;
+}
+.navbar .side-bar {
+  position: absolute;
+  top: -400px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease ;
+}
+ .navbar .side-bar .content ,.side-bar ul  {
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  
+}
+.navbar .side-bar .content li{
+  list-style:none ;
+  background-color: white;
+}
+.navbar .side-bar .content ul {
+  transform: translateX(-15px);
+  line-height: 2.6rem;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  
+}
+.navbar .side-bar .btn_two i{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 2rem;
+  background-color: white;
+  
+}
+.navbar .openbar{
+  top: 0;
+}
+
+.main{
+  width: 100%;
+  background-color: white;
+  margin-top: 1rem;
+  place-items: center;
+  padding-bottom: 2rem;
+}
+.main2{
+  width: 90%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  
+}
+
+.main-img{
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.img{
+  background-image: url("mainimg.jpg");
+  background-size: 100% 100% ;
+  height: 100%;
+  width: 100%;
+}
+h1{
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-family: 'Ebgaramond';
+  font-weight: 400;
+  background-color: white;
+  margin-bottom: .5rem;
+  
+}
+.small{
+  background-color: white;
+  color: #47474A;
+}
+.small a{
+  background-color: white;
+  color: royalblue;
+}
+
+
+
+.main2 p{
+ 
+  background-color: white;
+  line-height: 1.6;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #28282C;
+}
+.back{
+  background-color: #e9d8fd;
+  display: inline;
+  padding: 2px 4px;
+}
+
+.main2 h2{
+  background-color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 1rem;
+ 
+}
+.main2 table{
+  height: 400px;
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+
+.main2 table tr{
+  border:black;
+  background-color: white;
+}
+.main2 td{
+
+  background-color: white;
+  border: 1.5px solid black; /* Adds border to table cells */
+  padding: 8px; /* Optional, adds space inside cells */
+  text-align: left; /* Aligns text to the left */
+  
+}
+
+.main2 a{
+  background-color: white;
+  text-decoration: none;
+  border-bottom: 2px royalblue dotted;
+  color: royalblue;
+}
+.main2 i{
+  color: royalblue;
+  background-color: white;
+}
+.main2 ul{
+  background-color: white;
+  margin-top: 1.2rem;
+
+}
+.main2 li{
+  text-align: start ;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: white;
+  
+}
+.main2 b {
+  background-color: white;
+}
+.images{
+  display: flex;
+  width: 40%;
+  height: 3rem;
+  background-color: white;
+  margin-top: 1.1rem;
+}
+.images img{
+  height: 70%;
+  width: 70%;
+  padding-left: 0.5rem;
+  background-color: white;
+  
+}
+
+.main .links{
+   width: 90%;
+   background-color: white;
+   
+}
+.links p{
+  background-color: white;
+}
+.links a{
+  display: inline-block;
+  font-size: 1.1rem;
+  background-color: white;
+  padding-top: 0.5rem;
+}
+.links i{
+  background-color: white;
+  
+}
+
+.info{
+  width: 100%;
+  background-color: white;
+  margin-top: 1rem;
+  place-items: center;
+  padding-bottom: 2rem;
+}
+.info1{
+  width: 90%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: black;
+  margin-top: 2rem;
+  
+}
+.info1 h2{
+  background-color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+textarea{
+  height: 200px;
+  width: 90%;
+  margin-top: 1.2rem;
+  border: none;
+}
+.info1 input{
+  margin-top: 1rem;
+  width: 50%;
+  height: 3rem;
+  border: none;
+}
+.info1 button{
+  color: white;
+  background-color: #303033;
+  height: 2.5rem;
+  width: 20%;
+  margin-top: 1.5rem;
+}
+
+.search{
+  height: 120px;
+  width: 100%;
+  background-color: white;
+  margin-top: 1rem;
+  place-items: center;
+}
+.search1{
+  width: 90%;
+  background-color: white;
+  align-items: start;
+  color: black;
+  
+ 
+}
+.search1 p{
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.search1 input{
+  height: 2.5rem;
+  width: 70%;
+  border: none;
+  
+}
+.search1 button{
+  color: white;
+  background-color: #303033;
+  height: 2.5rem;
+  width: 20%;
+  margin-left: 10px;
+}
+
+@media (max-width: 450px){
+  .main-img{
+    height: 14rem;
+  }
+  .info1 button{
+    width: 25%;
+  }
+  .info1 input {
+    width: 60%;
+    padding-left: 10px;
+  }
+}
